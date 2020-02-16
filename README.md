@@ -18,5 +18,4 @@ This service requires
 ### 3. How to run
 Download the repository, enter the directory and run:
 - /fibonacci_server.py
-This will run the service on port 8080. At this moment, the service is up and running and is also ready to serve logs into
-# runtime.log
+This will run the service on port 8080. At this moment, the service is up and running and is also ready to serve logs into runtime.log
