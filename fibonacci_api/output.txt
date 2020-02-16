@@ -1,0 +1,44 @@
+# Sample output1
+
+curl -i localhost:8080/fib/3/5
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 9
+Server: Werkzeug/0.11.3 Python/2.7.12
+Date: Sat, 15 Feb 2020 16:53:49 GMT
+[2, 3, 5]
+
+# Sample output2
+
+curl -i localhost:8080/fib/0/10
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 34
+Server: Werkzeug/0.11.3 Python/2.7.12
+Date: Sat, 15 Feb 2020 17:28:17 GMT
+
+[0, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+
+# Sample output3
+curl -is localhost:8080/health
+HTTP/1.0 200 OK
+Content-type: text/plain; charset=utf-8
+Content-Length: 103
+Server: Werkzeug/0.11.3 Python/2.7.12
+Date: Sat, 15 Feb 2020 18:24:42 GMT
+
+Welcome to the Fibonacci Server!
+
+Currently only one API is supported :
+
+GET fib/<start_idx>/<end_idx>
+
+# Sample output4
+curl -is localhost:8080/fib/1/3
+HTTP/1.0 200 OK
+Content-Type: application/json
+Content-Length: 9
+Server: Werkzeug/0.11.3 Python/2.7.12
+Date: Sat, 15 Feb 2020 18:24:58 GMT
+
+[0, 1, 2]
