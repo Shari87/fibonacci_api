@@ -56,17 +56,23 @@ Response is a status code reported in a HTTP header and a JSON array
 ### The Fibonacci Algorithm peforms in the following manner:
 
   - Counting 10,000 numbers takes 11 ms
-  $ python fibonacci.py 0 10000
-         10002 function calls in 0.007 seconds
+  
+      -$ python fibonacci.py 0 10000
+  
+      - 10002 function calls in 0.007 seconds
 
+   
    Ordered by: standard name
 
-   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-        1    0.000    0.000    0.007    0.007 <string>:1(<module>)
-        1    0.006    0.006    0.007    0.007 fibonacci.py:43(compute)
-        1    0.000    0.000    0.007    0.007 fibonacci.py:57(sequence)
-        1    0.000    0.000    0.000    0.000 {len}
-     9997    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
-        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
-
+   
+   
+   |ncalls | tottime | percall | cumtime | percall | filename:lineno(function)
+    -------  -------  ---------  --------  ---------------------------------
+   |   1   | 0.000   |  0.000   | 0.007   | 0.007    | <string>:1(<module>)
+   |   1   |  0.006  |  0.006  |  0.007  |  0.007   |  fibonacci.py:43(compute)
+   |   1   | 0.000   |  0.000   | 0.007   | 0.007    |  fibonacci.py:57(sequence)
+   |   1   | 0.000   | 0.000   |  0.000  |  0.000   |    {len}
+   | 9997  |  0.001  |  0.000  |  0.001  |  0.000   |    {method 'append' of 'list' objects}
+   |   1   | 0.000   | 0.000   | 0.000   | 0.000    |   {method 'disable' of '_lsprof.Profiler' objects}
+    -------  -------  -------   -------    -------     --------------------------------------------
   
