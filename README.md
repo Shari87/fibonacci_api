@@ -8,4 +8,4 @@ Adnymics Developer Task
 ## 5.  Response Type
 
 # 1. Brief Description
-
+Fibonacci Server is a RESTful web service used to serve numbers from index 0 upto a predefined number 10000
