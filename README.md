@@ -7,4 +7,5 @@ Adnymics Developer Task
 ## 4.  Request Type
 ## 5.  Response Type
 
-Brief Description
+# 1. Brief Description
+
