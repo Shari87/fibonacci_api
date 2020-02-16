@@ -24,6 +24,9 @@ This will run the service on port 8080. At this moment, the service is up and ru
 Usage: fibonacci_server.py [options]
 
 Options:
+
 -h, --help      shows this help message and exits
+
 -b BIND, --bind=BIND Binds, the address
+
 -p PORT, --port=PORT Listens on this port
