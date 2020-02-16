@@ -76,3 +76,14 @@ Response is a status code reported in a HTTP header and a JSON array
    |   1   | 0.000   | 0.000    | 0.000   | 0.000    |   {method 'disable' of '_lsprof.Profiler' objects}
     
   
+# Notes
+
+Focussed on the main features. For eg:
+
+[x] Algorithm correctness
+
+[x] The working of Flask service
+
+[x] Correctness of the result
+
+[x] Code testability
