@@ -87,3 +87,7 @@ Focussed on the main features. For eg:
 [x] Correctness of the result
 
 [x] Code testability using unittests
+
+[x] Containerizing the flask service
+
+[x] Tox setup to make the scripts work on both 2.7 and 3.5 environments
