@@ -66,13 +66,13 @@ Response is a status code reported in a HTTP header and a JSON array
 
    
    
-   |ncalls | tottime | percall | cumtime | percall | filename:lineno(function)
-    -------  -------  ---------  --------  ---------------------------------
+   |ncalls | tottime | percall | cumtime | percall |    filename:lineno(function)
+   |------- | ------- | ------- | ------- | -------- | ---------------------------------
    |   1   | 0.000   |  0.000   | 0.007   | 0.007    | <string>:1(<module>)
-   |   1   |  0.006  |  0.006  |  0.007  |  0.007   |  fibonacci.py:43(compute)
+   |   1   |  0.006  |  0.006   |  0.007  |  0.007   |  fibonacci.py:43(compute)
    |   1   | 0.000   |  0.000   | 0.007   | 0.007    |  fibonacci.py:57(sequence)
-   |   1   | 0.000   | 0.000   |  0.000  |  0.000   |    {len}
-   | 9997  |  0.001  |  0.000  |  0.001  |  0.000   |    {method 'append' of 'list' objects}
-   |   1   | 0.000   | 0.000   | 0.000   | 0.000    |   {method 'disable' of '_lsprof.Profiler' objects}
+   |   1   | 0.000   | 0.000    |  0.000  |  0.000   |    {len}
+   | 9997  |  0.001  |  0.000   |  0.001  |  0.000   |    {method 'append' of 'list' objects}
+   |   1   | 0.000   | 0.000    | 0.000   | 0.000    |   {method 'disable' of '_lsprof.Profiler' objects}
     -------  -------  -------   -------    -------     --------------------------------------------
   
