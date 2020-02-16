@@ -74,5 +74,5 @@ Response is a status code reported in a HTTP header and a JSON array
    |   1   | 0.000   | 0.000    |  0.000  |  0.000   |    {len}
    | 9997  |  0.001  |  0.000   |  0.001  |  0.000   |    {method 'append' of 'list' objects}
    |   1   | 0.000   | 0.000    | 0.000   | 0.000    |   {method 'disable' of '_lsprof.Profiler' objects}
-    -------  -------  -------   -------    -------     --------------------------------------------
+    
   
