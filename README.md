@@ -21,14 +21,15 @@ Download the repository, enter the directory and run:
 - /fibonacci_server.py
 
 This will run the service on port 8080. At this moment, the service is up and running and is also ready to serve logs into runtime.log. Also, a --help option is provided in the script
-- ./fibonacci_server.py --help
+- ##### ./fibonacci_server.py --help
+
 Usage: fibonacci_server.py [options]
 
 Options:
 
 -h, --help      shows this help message and exits
 
--b BIND, --bind=BIND Binds, the address
+-b BIND, --bind=BIND Binds the address
 
 -p PORT, --port=PORT Listens on this port
 
@@ -48,3 +49,24 @@ the header
 
 ##### 5. Response Message Format
 Response is a status code reported in a HTTP header and a JSON array
+
+
+# Performance
+
+### The Fibonacci Algorithm peforms in the following manner:
+
+  - Counting 10,000 numbers takes 11 ms
+  $ python fibonacci.py 0 10000
+         10002 function calls in 0.007 seconds
+
+   Ordered by: standard name
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.007    0.007 <string>:1(<module>)
+        1    0.006    0.006    0.007    0.007 fibonacci.py:43(compute)
+        1    0.000    0.000    0.007    0.007 fibonacci.py:57(sequence)
+        1    0.000    0.000    0.000    0.000 {len}
+     9997    0.001    0.000    0.001    0.000 {method 'append' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+  
