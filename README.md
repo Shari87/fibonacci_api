@@ -86,4 +86,4 @@ Focussed on the main features. For eg:
 
 [x] Correctness of the result
 
-[x] Code testability
+[x] Code testability using unittests
